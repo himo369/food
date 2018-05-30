@@ -27,6 +27,10 @@ class Dessert
      */
     private $prix;
 
+    /**
+     * @var float
+     */
+    private $prixx;
 
     /**
      * Get id
