@@ -1,0 +1,29 @@
+RestoBundle\Entity\Reservation:
+    type: entity
+    table: null
+    repositoryClass: RestoBundle\Repository\ReservationRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nom:
+            type: string
+            length: 255
+        prenom:
+            type: string
+            length: 255
+        nbrPersonnes:
+            type: integer
+        email:
+            type: string
+            length: 255
+        telephone:
+            type: integer
+        heure:
+            type: time
+        date:
+            type: date
+    lifecycleCallbacks: {  }

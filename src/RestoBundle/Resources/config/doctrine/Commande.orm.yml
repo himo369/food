@@ -1,0 +1,25 @@
+RestoBundle\Entity\Commande:
+    type: entity
+    table: null
+    repositoryClass: RestoBundle\Repository\CommandeRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nom:
+            type: string
+            length: 255
+        prenom:
+            type: string
+            length: 255
+        adresse:
+            type: string
+            length: 255
+        prix:
+            type: float
+        telephone:
+            type: integer
+    lifecycleCallbacks: {  }
