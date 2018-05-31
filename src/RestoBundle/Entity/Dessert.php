@@ -30,7 +30,7 @@ class Dessert
     /**
      * @var float
      */
-    private $Numerou;
+    private $Numeroudev;
 
     /**
      * Get id
